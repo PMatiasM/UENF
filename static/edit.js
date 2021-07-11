@@ -2,7 +2,7 @@
 id = parseInt(document.getElementById('buildingID').innerHTML, 10);
 //load geojson
 var buildings = $.ajax({
-  url:"https://raw.githubusercontent.com/Pedroaaaa/pelo-amor-de-Deus/main/a.geojson",
+  url:"https://raw.githubusercontent.com/PMatiasM/UENF/main/a.geojson",
   dataType: "json",
   success: console.log("building data successfully loaded."),
 });
